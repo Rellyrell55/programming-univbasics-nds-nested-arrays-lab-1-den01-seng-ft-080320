@@ -11,7 +11,7 @@ ORGANIC_PRODUCE = [
 CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
-  "Oranges",
+  "Lemons",
   "Watermelon",
   "Eggplant"
 ]
@@ -29,5 +29,5 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  CONVENTIONAL_PRODUCE[row][column] = new_value
+  CONVENTIONAL_PRODUCE
 end
